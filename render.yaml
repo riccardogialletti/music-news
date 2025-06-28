@@ -1,0 +1,8 @@
+services:
+  - type: cron
+    name: scraper-job
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python app.py
+    schedule: "@hourly"  # oppure "@daily", "@every 30m", ecc.
