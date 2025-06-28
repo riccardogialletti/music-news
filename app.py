@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-WIX_ENDPOINT = "https://tuosito.wixsite.com/_functions/news"  # <-- Cambia con il tuo URL
+WIX_ENDPOINT = "https://www.assmusicalt.com/_functions/news"  # <-- Cambia con il tuo URL
 
 NEWS_SOURCES = [
     "https://www.umbriaon.it/cronaca/",
